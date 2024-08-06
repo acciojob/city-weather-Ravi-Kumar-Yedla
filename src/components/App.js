@@ -42,6 +42,7 @@ const App = () => {
         value={city}
         placeholder="Enter a city"
         onChange={(e) => setCity(e.target.value)}
+          className="search"
       />
       {error && <p>{error}</p>}
 
